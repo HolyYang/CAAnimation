@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B32D0EE1E4C08E0005D2D3D /* BaseAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B32D0ED1E4C08E0005D2D3D /* BaseAnimationViewController.m */; };
+		3B32D0F11E4C3B7E005D2D3D /* DrawLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B32D0F01E4C3B7E005D2D3D /* DrawLineViewController.m */; };
 		3BF73EAE1E4AB7EC00AE3035 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF73EAD1E4AB7EC00AE3035 /* main.m */; };
 		3BF73EB11E4AB7EC00AE3035 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF73EB01E4AB7EC00AE3035 /* AppDelegate.m */; };
 		3BF73EB41E4AB7EC00AE3035 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF73EB31E4AB7EC00AE3035 /* ViewController.m */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B32D0EC1E4C08E0005D2D3D /* BaseAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAnimationViewController.h; sourceTree = "<group>"; };
+		3B32D0ED1E4C08E0005D2D3D /* BaseAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseAnimationViewController.m; sourceTree = "<group>"; };
+		3B32D0EF1E4C3B7E005D2D3D /* DrawLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawLineViewController.h; sourceTree = "<group>"; };
+		3B32D0F01E4C3B7E005D2D3D /* DrawLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawLineViewController.m; sourceTree = "<group>"; };
 		3BF73EA91E4AB7EC00AE3035 /* CAAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BF73EAD1E4AB7EC00AE3035 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3BF73EAF1E4AB7EC00AE3035 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +111,10 @@
 				3BF73EB01E4AB7EC00AE3035 /* AppDelegate.m */,
 				3BF73EB21E4AB7EC00AE3035 /* ViewController.h */,
 				3BF73EB31E4AB7EC00AE3035 /* ViewController.m */,
+				3B32D0EC1E4C08E0005D2D3D /* BaseAnimationViewController.h */,
+				3B32D0ED1E4C08E0005D2D3D /* BaseAnimationViewController.m */,
+				3B32D0EF1E4C3B7E005D2D3D /* DrawLineViewController.h */,
+				3B32D0F01E4C3B7E005D2D3D /* DrawLineViewController.m */,
 				3BF73EB51E4AB7EC00AE3035 /* Main.storyboard */,
 				3BF73EB81E4AB7EC00AE3035 /* Assets.xcassets */,
 				3BF73EBA1E4AB7EC00AE3035 /* LaunchScreen.storyboard */,
@@ -278,7 +288,9 @@
 			files = (
 				3BF73EB41E4AB7EC00AE3035 /* ViewController.m in Sources */,
 				3BF73EB11E4AB7EC00AE3035 /* AppDelegate.m in Sources */,
+				3B32D0EE1E4C08E0005D2D3D /* BaseAnimationViewController.m in Sources */,
 				3BF73EAE1E4AB7EC00AE3035 /* main.m in Sources */,
+				3B32D0F11E4C3B7E005D2D3D /* DrawLineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +526,7 @@
 				3BF73ED81E4AB7EC00AE3035 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BF73ED91E4AB7EC00AE3035 /* Build configuration list for PBXNativeTarget "CAAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +535,7 @@
 				3BF73EDB1E4AB7EC00AE3035 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BF73EDC1E4AB7EC00AE3035 /* Build configuration list for PBXNativeTarget "CAAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +544,7 @@
 				3BF73EDE1E4AB7EC00AE3035 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
