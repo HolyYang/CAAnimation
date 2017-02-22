@@ -45,24 +45,49 @@
     UIBezierPath *path = [[UIBezierPath alloc] init];
     
 //    [path moveToPoint:CGPointMake(175, 100)];
-    [path addArcWithCenter:CGPointMake(100, 300) radius:25 startAngle:0 endAngle:2*M_PI clockwise:YES];
+//    [path addArcWithCenter:CGPointMake(100, 300) radius:25 startAngle:0 endAngle:2*M_PI clockwise:YES];
     
-    [path moveToPoint:CGPointMake(150, 125)];
-    [path addLineToPoint:CGPointMake(150, 175)];
-    [path addLineToPoint:CGPointMake(125, 225)];
-    [path addLineToPoint:CGPointMake(150, 125)];
-    
-//    [path moveToPoint:CGPointMake(150, 175)];
-//    [path addLineToPoint:CGPointMake(175, 225)];
+//    [path moveToPoint:self.view.center];
+//    CGPoint point= self.view.center;
 //    
-    [path moveToPoint:CGPointMake(100, 450)];
-    [path addLineToPoint:CGPointMake(200, 450)];
+//    for (int i = 1; i<150; i++) {
+//        
+//        int a = i/4;
+//        int b = i%4;
+//        
+//        if (b == 1) {
+//            [path addLineToPoint:CGPointMake(point.x + (a + 1) * 5, point.y + a * 5)];
+//        }else if (b == 2){
+//            [path addLineToPoint:CGPointMake(point.x + (a + 1) * 5, point.y - (a + 1) * 5)];
+//        }else if (b == 3){
+//            [path addLineToPoint:CGPointMake(point.x - (a + 1) * 5, point.y - (a + 1) * 5)];
+//        }else{
+//            [path addLineToPoint:CGPointMake(point.x - a * 5, point.y + a * 5)];
+//        }
+//        
+//    }
+    
+    //667
+    [path moveToPoint:CGPointMake(0, 0)];
+    
+    for (int x = 0; x <= 375; x = x + 10) {
+        [path moveToPoint:CGPointMake(x+2.5, 0)];
+        [path addLineToPoint:CGPointMake(x+2.5, 660)];
+    }
+    
+    for (int y = 64; y <= 667; y = y + 10) {
+        [path moveToPoint:CGPointMake(2.5, y)];
+        [path addLineToPoint:CGPointMake(372.5, y)];
+    }
+    
+
+    
     
     //create shape layer
     CAShapeLayer *shapeLayer = [CAShapeLayer layer];
     shapeLayer.strokeColor = [UIColor redColor].CGColor;
-    shapeLayer.fillColor = [UIColor greenColor].CGColor;
-    shapeLayer.lineWidth = 5;
+    shapeLayer.fillColor = [UIColor clearColor].CGColor;
+    shapeLayer.lineWidth = 1;
     shapeLayer.lineJoin = kCALineJoinRound;
     shapeLayer.lineCap = kCALineCapRound;
     shapeLayer.path = path.CGPath;

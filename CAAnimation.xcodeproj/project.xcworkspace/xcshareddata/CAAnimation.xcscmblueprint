@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "99C38919B9FA7E7FF44A544B55E4E11254003FC2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "78D84CD190CD675ABE838EA973E6E5C4BE2B9033" : 9223372036854775807,
+    "99C38919B9FA7E7FF44A544B55E4E11254003FC2" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "05900DB6-D783-459E-B2D0-618939299C2A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "78D84CD190CD675ABE838EA973E6E5C4BE2B9033" : "",
+    "99C38919B9FA7E7FF44A544B55E4E11254003FC2" : "CAAnimation\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CAAnimation",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CAAnimation.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/HolyYang\/GIF_yy.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "78D84CD190CD675ABE838EA973E6E5C4BE2B9033"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/HolyYang\/CAAnimation.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "99C38919B9FA7E7FF44A544B55E4E11254003FC2"
+    }
+  ]
+}

@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B10BB7B1E5AE73A003F2E92 /* ChouJiangViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B10BB7A1E5AE73A003F2E92 /* ChouJiangViewController.m */; };
+		3B10BB811E5AF257003F2E92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B10BB801E5AF257003F2E92 /* Assets.xcassets */; };
 		3B32D0EE1E4C08E0005D2D3D /* BaseAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B32D0ED1E4C08E0005D2D3D /* BaseAnimationViewController.m */; };
 		3B32D0F11E4C3B7E005D2D3D /* DrawLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B32D0F01E4C3B7E005D2D3D /* DrawLineViewController.m */; };
 		3BF73EAE1E4AB7EC00AE3035 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF73EAD1E4AB7EC00AE3035 /* main.m */; };
 		3BF73EB11E4AB7EC00AE3035 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF73EB01E4AB7EC00AE3035 /* AppDelegate.m */; };
 		3BF73EB41E4AB7EC00AE3035 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF73EB31E4AB7EC00AE3035 /* ViewController.m */; };
 		3BF73EB71E4AB7EC00AE3035 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BF73EB51E4AB7EC00AE3035 /* Main.storyboard */; };
-		3BF73EB91E4AB7EC00AE3035 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BF73EB81E4AB7EC00AE3035 /* Assets.xcassets */; };
 		3BF73EBC1E4AB7EC00AE3035 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BF73EBA1E4AB7EC00AE3035 /* LaunchScreen.storyboard */; };
 		3BF73EC71E4AB7EC00AE3035 /* CAAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF73EC61E4AB7EC00AE3035 /* CAAnimationTests.m */; };
 		3BF73ED21E4AB7EC00AE3035 /* CAAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF73ED11E4AB7EC00AE3035 /* CAAnimationUITests.m */; };
@@ -37,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B10BB791E5AE73A003F2E92 /* ChouJiangViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChouJiangViewController.h; sourceTree = "<group>"; };
+		3B10BB7A1E5AE73A003F2E92 /* ChouJiangViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChouJiangViewController.m; sourceTree = "<group>"; };
+		3B10BB801E5AF257003F2E92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B32D0EC1E4C08E0005D2D3D /* BaseAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAnimationViewController.h; sourceTree = "<group>"; };
 		3B32D0ED1E4C08E0005D2D3D /* BaseAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseAnimationViewController.m; sourceTree = "<group>"; };
 		3B32D0EF1E4C3B7E005D2D3D /* DrawLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawLineViewController.h; sourceTree = "<group>"; };
@@ -48,7 +52,6 @@
 		3BF73EB21E4AB7EC00AE3035 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3BF73EB31E4AB7EC00AE3035 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3BF73EB61E4AB7EC00AE3035 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3BF73EB81E4AB7EC00AE3035 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BF73EBB1E4AB7EC00AE3035 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BF73EBD1E4AB7EC00AE3035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BF73EC21E4AB7EC00AE3035 /* CAAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +110,7 @@
 		3BF73EAB1E4AB7EC00AE3035 /* CAAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				3B10BB801E5AF257003F2E92 /* Assets.xcassets */,
 				3BF73EAF1E4AB7EC00AE3035 /* AppDelegate.h */,
 				3BF73EB01E4AB7EC00AE3035 /* AppDelegate.m */,
 				3BF73EB21E4AB7EC00AE3035 /* ViewController.h */,
@@ -115,8 +119,9 @@
 				3B32D0ED1E4C08E0005D2D3D /* BaseAnimationViewController.m */,
 				3B32D0EF1E4C3B7E005D2D3D /* DrawLineViewController.h */,
 				3B32D0F01E4C3B7E005D2D3D /* DrawLineViewController.m */,
+				3B10BB791E5AE73A003F2E92 /* ChouJiangViewController.h */,
+				3B10BB7A1E5AE73A003F2E92 /* ChouJiangViewController.m */,
 				3BF73EB51E4AB7EC00AE3035 /* Main.storyboard */,
-				3BF73EB81E4AB7EC00AE3035 /* Assets.xcassets */,
 				3BF73EBA1E4AB7EC00AE3035 /* LaunchScreen.storyboard */,
 				3BF73EBD1E4AB7EC00AE3035 /* Info.plist */,
 				3BF73EAC1E4AB7EC00AE3035 /* Supporting Files */,
@@ -260,7 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BF73EBC1E4AB7EC00AE3035 /* LaunchScreen.storyboard in Resources */,
-				3BF73EB91E4AB7EC00AE3035 /* Assets.xcassets in Resources */,
+				3B10BB811E5AF257003F2E92 /* Assets.xcassets in Resources */,
 				3BF73EB71E4AB7EC00AE3035 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +294,7 @@
 				3BF73EB41E4AB7EC00AE3035 /* ViewController.m in Sources */,
 				3BF73EB11E4AB7EC00AE3035 /* AppDelegate.m in Sources */,
 				3B32D0EE1E4C08E0005D2D3D /* BaseAnimationViewController.m in Sources */,
+				3B10BB7B1E5AE73A003F2E92 /* ChouJiangViewController.m in Sources */,
 				3BF73EAE1E4AB7EC00AE3035 /* main.m in Sources */,
 				3B32D0F11E4C3B7E005D2D3D /* DrawLineViewController.m in Sources */,
 			);
